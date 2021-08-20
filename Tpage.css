@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #ffffff;
+}
+.main-div{
+    box-sizing: border-box;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+ h2{
+    font-size: 3.5rem;
+}
+.links ul{
+    display: flex;
+    flex-direction: row;
+}
+.links ul li{
+     font-size: 1.6rem;
+     padding: 10px;
+     list-style: none;
+}
+.links ul li a{
+    text-decoration: none;
+    color: #df2525;
+}
+.container{
+    border: 2px solid #df2525;
+    
+    
+}
+.main-body, .personal{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.sushant, .end-image{
+    width: 100%;
+    height: auto;
+ 
+}
+h1{
+    font-size: 2.2rem;
+    text-decoration: underline;
+}
+h3{
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+.main-body p{
+    font-size: 1.5rem;
+    padding: 20px 10px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.personal h1, .achievements h1, .death h1{
+    padding: 20px;
+    font-size: 2rem;
+    color: #df2525;
+}
+.personal p{
+    font-size: 1.5rem;
+    padding: 20px 10px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.achievements h1, .death h1{
+    text-align: center;
+}
+.achievements h5{
+    font-size: 2rem;
+    text-decoration: underline #df2525;
+}
+.main-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.list1, .list2 {
+    flex:50%;
+    padding: 20px 10px;
+}
+.list1 p, .list2 p{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.death p{
+   padding: 20px 10px;
+   font-size: 1.5rem;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.query{
+    color: #df2525;
+}
+.ending img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .80;
+    object-fit: cover;
+}
+.ending{
+    position: relative;
+    text-align: center;
+}
+
+.writings p{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    opacity: .60;
+    padding: 0px 10px 0px 10px;
+    background-color:#ffff;
+    color: #df2525;
+    
+}
+@media (min-width: 660px){
+       .writings p{
+           padding: 25px;
+       }
+}
+
+@media (min-width: 800px){
+    .links ul li{
+        font-size: 2rem;
+   }
+   .sushant, .end-image{
+      width: 65%;
+      }
+   
+  .main-body p, .personal p, .death p{
+       padding: 10px 230px 0px 230px;
+       font-size: 2rem;
+  }
+  .container{
+      border: none;
+  }
+  .personal h1{
+      font-size: 2.5rem;
+      
+  }
+  .achievements h5{
+      padding: 0px 0px 0px 230px;
+  }
+  .main-list{
+      padding: 0px 220px 0px 220px;
+  }
+  .list1 p, .list2 p{
+      font-size: 2rem;
+  }
+  .writings p{
+      left: 40%;
+      top: 50%;
+      padding: 30px;
+      
+  }
+  
+}
